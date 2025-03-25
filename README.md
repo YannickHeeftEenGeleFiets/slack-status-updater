@@ -15,3 +15,11 @@ The purpose of this client is to accept arguments from the command line and upda
 1. Run `yarn install`
 1. Run `yarn build`
 1. Run `yarn update-slack-status`
+
+## Obtaining a slack token
+
+1. Go to: https://api.slack.com/apps
+1. Create a modern app
+1. Under OAuth & Permissions > Scopes > User Token Scopes, make sure the following scopes are set:
+    - `users.profile:write`
+1. Install the app to your workspace
